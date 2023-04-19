@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <form name="myform" action="/hello.html" id="myform"  class="formContainer">
+        <h1 class="header">Registration Form</h1>
+
+        <label class="label" for="fName">Enter Full name </label>
+        <input type="text" id="fName" />
+        <span id="fNameErr"></span>
+
+        <label class="label" for="Email">Enter Email</label>
+        <input type="email" id="Email" />
+        <span id="emailErr"></span>
+
+        <label class="label" for="DOB">Enter DOB </label>
+        <input type="date" id="DOB" />
+        <span id="dobErr"></span>
+
+        <!-- <label class="label" for=" password">Enter Password </label>
+        <input type="password" id=" password" />
+        <span id="passwordErr"></span> -->
+
+        <label class="label" for=" password">Enter Password </label>
+        <input type="password" name="password" id="password" />
+        <span id="passwordErr"></span>
+
+        <label class="label" for="phNo">Enter Phone Number </label>
+        <input type="text" id="phNo" maxlength="10" />
+        <span id="phNoErr"></span>
+
+        <label class="label" for="country">Enter Country</label>
+        <select name="country" class="label" id="Country">
+          <option disabled selected hidden value="">Select a Country</option>
+          <option value="India">India</option>
+          <option value="Germany">Germany</option>
+          <option value="Japan">Japan</option>
+          <option value="Canada">Canada</option>
+        </select>
+        <span id="countryErr"></span>
+
+        <label class="label" for="address">Enter Address </label>
+        <textarea rows="5" id="address" cols="50"></textarea>
+        <span id="addressErr"></span>
+
+        <button type="submit">Submit here</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+body{
+    color: white;
+    background-image:url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')
+   
+    /* background-color: #393646; */
+}
+.formContainer{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+   
+}
+.formContainer h1{
+    margin: auto;
+    padding:  15px 0;
+}
+label{
+    margin-top: 10px;
+    display: block;
+    color: #F4EEE0;
+    margin-left: 8%;
+}
+input{
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 12px;
+    margin-top: 0;
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 5px;
+
+}
+textarea{
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+select{
+    width: 85%;    
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button{
+    margin-top:  30px;
+    padding: 10px;
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 48px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: tomato;
+    font-size:x-large;
+}
+select{
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+span{
+    color: rgb(255, 141, 141);
+    margin-left: 55px;
+}
